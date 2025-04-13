@@ -1,46 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            background: #f0f0f0;
-        }
-        header {
-            background: #4CAF50;
-            color: white;
-            padding: 30px 0;
-            font-size: 2em;
-        }
-        main {
-            margin: 50px;
-        }
-        footer {
-            background: #333;
-            color: white;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            font-size: 0.8em;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        Welcome to My Website!
-    </header>
-    <main>
-        <p>This is a simple page hosted on GitHub Pages. 🚀</p>
-    </main>
-    <footer>
-        © 2025 Your Name
-    </footer>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Your Name</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="text-center p-5 bg-light">
+    <div class="container">
+      <h1 class="display-4">Hello, I'm <strong>Your Name</strong></h1>
+      <p class="lead">A passionate researcher in [Your Field]</p>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="p-5">
+    <div class="container">
+      <h2 class="mb-4">Education</h2>
+      <ul>
+        <li><strong>Ph.D. in [Field]</strong> - [University Name], [Year]</li>
+        <li><strong>M.Tech in [Field]</strong> - [University Name], [Year]</li>
+        <li><strong>B.Tech in [Field]</strong> - [University Name], [Year]</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section id="research" class="p-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Research Interests</h2>
+      <ul>
+        <li>Deep Learning and Computer Vision</li>
+        <li>Medical Image Analysis</li>
+        <li>Multi-Label Classification</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section id="publications" class="p-5">
+    <div class="container">
+      <h2 class="mb-4">Publications</h2>
+      <ul>
+        <li><strong>[Paper Title]</strong>, [Conference/Journal], [Year]</li>
+        <li><strong>[Paper Title]</strong>, [Conference/Journal], [Year]</li>
+        <li><strong>[Paper Title]</strong>, [Conference/Journal], [Year]</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="p-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Contact</h2>
+      <p>Email: your.email@example.com</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+      <p>GitHub: <a href="https://github.com/yourgithub" target="_blank">yourgithub</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3">
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
